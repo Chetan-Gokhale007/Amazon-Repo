@@ -1,0 +1,47 @@
+.section-2{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.section-2 .section-2-cont h3{
+    margin-bottom: 10px;
+}
+.section-2 .section-2-cont p{
+    display: inline;
+    position: relative;
+    left: 565px;
+    bottom: 30px;
+    color: #007185;
+    font-size: 14px;
+}
+.section-2 .section-2-cont p a{
+    text-decoration: none;
+}
+.section-2 .section-2-cont p:hover{
+    text-decoration: underline;
+    
+}
+.section-2 .section-2-cont .section-2-product-cards{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+
+}
+.section-2 .section-2-cont .section-2-product-cards .section-2-product-card{
+    width: 300px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+}
+.section-2 .section-2-cont .section-2-product-cards .section-2-product-card img{
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+}

@@ -1,0 +1,85 @@
+.product-name{
+    width: 100%;
+    height: 100px;
+}
+.product-name .product-name-cont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.product-name .product-name-cont h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #121212;
+}
+.product-detail{
+    width: 100%;
+    height: 700px;
+}
+.product-cont {
+    display: flex;
+    margin: 20px;
+    align-items: flex-start;
+}
+
+.product-cont .product-img{
+    width: 50%;
+}
+.product-cont .product-img img{
+    border-radius: 15px;
+}
+.product-cont .product-info{
+    width: 50%;
+    margin-left: 50px;
+}
+.product-cont .product-info .prdt-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #121212;
+}
+.product-cont .product-info .prdt-price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.product-cont .product-info .about h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+    margin: 10px;
+ }
+ .product-cont .product-info .about ul{
+    margin: 10px 10px;
+
+ }
+ .product-cont .product-info .about ul li{
+    margin: 10px 36px;
+ }
+ .product-cont .product-info .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 20px;
+ }
+ .product-cont .product-info .buttons .buy-now{
+    width: 50%;
+    border: none;
+    background-color: #ffa41c;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+ }
+ 
+ .product-cont .product-info .buttons .add-to-cart{
+    width: 50%;
+    border: 2px solid #ffa41c;
+    padding: 8px;
+    border-radius: 10px;
+ }
+ .product-cont .product-info .buttons :hover{
+    cursor: pointer;
+ }

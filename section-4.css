@@ -1,0 +1,41 @@
+.section-4{
+    margin: 20px;
+    padding: 20px;
+}
+.section-4 .section-4-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4 .section-4-cont p{
+    font-size: 14px;
+    color: #000;
+}
+.section-4 .section-4-cont button{
+    width: 230px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    background-color: #febd68;
+    border-radius: 10px;
+    border: none;
+}
+.section-4 .section-4-cont a{
+    text-decoration: none;
+    color: #007185;
+}
+.section-4 .section-4-cont p :hover{
+    color: #c45500;
+}
+
+footer{
+    height: 50px;
+    background-color: #131A22;
+    color: #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
